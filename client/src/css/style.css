@@ -1,0 +1,21 @@
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+  
+
+::-webkit-scrollbar {
+  width: 0px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  background-color: #616161;
+}
